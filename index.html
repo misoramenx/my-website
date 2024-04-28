@@ -62,7 +62,20 @@
 <br/>
 <br/>
 
-<div id="goUpButton"><img class="goup" src="images/goup.png" alt=""></div>
+<button onclick="topFunction()" id="goUpButton">
+    <div id="goUpButton"><img class="goup" src="images/goup.png"></div>
+</button>
+
+
+<script>
+    let goUpButton = document.getElementById("goUpButton");
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+
 
 <script>
     function clickMe(){

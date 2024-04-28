@@ -32,6 +32,7 @@ a:link, a:visited {
     background-color: #b59986;
     color: white;
     padding: 5px 15px;
+    border-radius: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -65,6 +66,8 @@ th,td {
     cursor: pointer;
     box-shadow: 0px 2px 10px #000000;
 }
+
 .goup{
     width: 100%;
 }
+
