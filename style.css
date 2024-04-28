@@ -6,17 +6,17 @@ body {
 }
 
 p {
-    border: 5px outset #c0b3a7;
+    border: 5px outset #a2988f;
     border-radius: 30px;
     padding: 20px;
-    background-color: linen;
+    background-color: rgba(237, 222, 205, 0.9);
 }
 
 .catbox {
-    border: 5px outset #c0b3a7;
+    border: 5px outset #a2988f;
     border-radius: 30px;
     padding: 20px;
-    background-color: linen;
+    background-color: rgba(237, 222, 205, 0.9);
     color: rgb(88, 80, 63);
 }
 
@@ -49,7 +49,8 @@ table {
 th,td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #beb19e;
+    background-color: rgba(237, 222, 205, 0.9);
 }
 
 #goUpButton {
